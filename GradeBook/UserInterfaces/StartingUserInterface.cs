@@ -52,7 +52,7 @@ namespace GradeBook.UserInterfaces
             }
             else
             {
-                Console.WriteLine($"{0} is not a suported type of gradebook, please try again",type);
+                Console.WriteLine(type + " is not a suported type of gradebook, please try again");
                 return;
             }
             Console.WriteLine("Created gradebook {0}.", name);
